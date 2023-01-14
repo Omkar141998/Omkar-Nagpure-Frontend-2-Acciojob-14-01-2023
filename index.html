@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation form List of Employeee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--   ######### Form With Content Name,Profession, Age ########### -->
+    <div class="container">
+        <h1>New Employees</h1>
+        <form action="">
+        <div class="user-name">Enter Name
+            <input type="text" id="name">
+        </div>
+        <div class="profession">Enter Profession
+            <input type="text" id="proffession">
+        </div>
+        <div class="user-age"> Enter Age
+            <input type="number" id="age" min="01">
+        </div>
+    </form>
+    </div>
+<!--  ############# Add User Button ############ -->
+    <button class="Submit-btn" onclick="add()">Add User</button>
+
+    <p id="ltext"></p>
+    <div class="last-text" >
+        <span>Added Employees</span>
+    </div>
+
+    <!-- ########## Last text ######### -->
+       <table id="table1">
+        <p id="employee">You have 0 Employees.</p>
+       </table>
+
+       <script src="./script.js"></script>
+</body>
+</body>
+
+</html>
