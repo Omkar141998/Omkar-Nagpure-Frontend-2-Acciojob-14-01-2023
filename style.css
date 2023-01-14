@@ -69,7 +69,7 @@ input {
 /*  ######### Add user Button ########## */
 .Submit-btn {
     position: absolute;
-    width: 10%;
+    width: 15%;
     height: 4%;
     left: 3.5%;
     top: 38%;
@@ -106,8 +106,4 @@ input {
 .btn{
     font-size: 18px;
     left: 3.5%
-}
-.table1{
-    font-size: 18px;
-    margin-left: 3.5%;
 }
